@@ -139,8 +139,10 @@
     git config --list
 Проверить настройки гита +дерево настроек
     git config --list --show-origin
-Привязать к репозиторию
-    git remote set-url origin htt_Полная_ссылка.git
+Привязать к репозиторию, меняя ссылку
+    git remote set-url origin https://github.com/ВАШ_ЛОГИН/ВАША_РЕПА
+Привязать к репозиторию, добавляя название
+    git remote add origin https://github.com/ВАШ_ЛОГИН/ВАША_РЕПА
 Узнать к какому репозиторию привязан проект
     git remote -v
 Узнать в какой ветке находимся
